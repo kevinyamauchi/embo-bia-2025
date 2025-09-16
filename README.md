@@ -1,5 +1,26 @@
 # 2025 Advanced methods in bioimage analysis course Force Inference tutorial 
 
+## Setting up the environment
+If you are running this tutorial on your local machine, you can set up the Python environment using [`uv`](https://docs.astral.sh/uv/) or .
+
+### uv
+To run with [`uv`](https://docs.astral.sh/uv/), do the following in your terminal:
+
+```bash
+cd embo-bia-2025
+uv run --with jupyter jupyter lab
+```
+This will install the environment and launch the Jupyter Lab server.
+
+### mamba
+To setup your environment with [`mamba`](https://github.com/conda-forge/miniforge)/conda, do the following (replace mamba with conda if you are using conda)
+
+```bash
+cd embo-bia-2025
+mamba create -f conda_env.yaml
+mamba activate force-inference
+```
+
 ## Instructions
 1. Log into Bard using your course credentials. Provision a machine of your choice. I have tested on the "lowest" and it worked.
 2. Clone this tutorial repository into your Documents folder:
