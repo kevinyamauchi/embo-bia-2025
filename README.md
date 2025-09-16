@@ -54,3 +54,17 @@ jupyter lab
 
 6. Work through the notebooks in pairs. There are solutions in the `solutions` subdirectory
 7. Post questions to the course forum.
+
+## References
+**Mesh processing**
+- Foambryo [repo](https://github.com/VirtualEmbryo/foambryo) and [paper](https://www.nature.com/articles/s41592-023-02084-7): This is the surface reconstruction and force inference method we use in this tutorial.
+- [potpourri3d](https://github.com/nmwsharp/potpourri3d): mesh and point cloud processing library
+- [vedo](https://github.com/marcomusy/vedo): Python-based mesh processing library with a focus on scientific data.
+- [pyvista](https://docs.pyvista.org/): Mesh processing and visualization library built on top of [VTK](https://vtk.org/).
+- [surface_morphometrics](https://github.com/GrotjahnLab/surface_morphometrics): pipeline for measuring properties of surfaces. Originally designed for cryo-ET data, but likely useful elsewhere.
+- [napari-process-points-and-surfaces](https://github.com/haesleinhuepf/napari-process-points-and-surfaces): napari plugin for processing point clouds and meshes. This might not be compatible with recent versions of napari. In any case, the source code should give inspiration for how to process meshes.
+
+**Force inference**
+- Foambryo [repo](https://github.com/VirtualEmbryo/foambryo) and [paper](https://www.nature.com/articles/s41592-023-02084-7): This is the surface reconstruction and force inference method we use in this tutorial.
+- [Image-based force inference by biomechanical simulation](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012629): Force inference method that utilizes a biomechanical simulation framework capable of simulating more forces than foam-like models.
+- [Fully three-dimensional force inference in intestinal organoids reveals ratchet-like bud stabilization](https://www.biorxiv.org/content/10.1101/2025.04.02.646749v1.abstract): force inference with pressure, surface tension, and line tension.
