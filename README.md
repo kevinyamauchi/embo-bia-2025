@@ -1,7 +1,7 @@
 # 2025 Advanced methods in bioimage analysis course Force Inference tutorial 
 
 ## Setting up the environment
-If you are running this tutorial on your local machine, you can set up the Python environment using [`uv`](https://docs.astral.sh/uv/) or .
+If you are running this tutorial on your local machine, you can set up the Python environment using [`uv`](https://docs.astral.sh/uv/) or [`mamba`](https://github.com/conda-forge/miniforge).
 
 ### uv
 To run with [`uv`](https://docs.astral.sh/uv/), do the following in your terminal:
