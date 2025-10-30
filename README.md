@@ -3,41 +3,6 @@
 ## Running locally
 If you are running this tutorial on your local machine, you can set up the Python environment using [`uv`](https://docs.astral.sh/uv/) or [`mamba`](https://github.com/conda-forge/miniforge). See instructions [here](https://github.com/kevinyamauchi/embo-bia-2025/blob/main/instructions/instructions_local.md).
 
-### uv
-To run with [`uv`](https://docs.astral.sh/uv/), do the following in your terminal:
-
-```bash
-# clone the repo
-git clone https://github.com/kevinyamauchi/embo-bia-2025.git
-
-# navigate into the repo
-cd embo-bia-2025
-
-# launch jupyter with uv
-uv run --with jupyter jupyter lab
-```
-This will install the environment and launch the Jupyter Lab server.
-
-### mamba
-To setup your environment with [`mamba`](https://github.com/conda-forge/miniforge)/conda, do the following (replace mamba with conda if you are using conda)
-
-```bash
-# clone the repo
-git clone https://github.com/kevinyamauchi/embo-bia-2025.git
-
-# navigate into the repo
-cd embo-bia-2025
-
-# create the environment
-mamba create -f conda_env.yaml
-
-# activate the environment
-mamba activate force-inference
-
-# launch jupyter lab
-jupyter lab
-```
-
 ## Running on Bard
 1. Log into Bard using your course credentials. Provision a machine of your choice. I have tested on the "lowest" and it worked.
 2. Clone this tutorial repository into your Documents folder:
