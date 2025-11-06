@@ -13,4 +13,5 @@ dependencies:
   - scipy
   - trimesh
   - pip:
+    - torch<=2.8
     - foambryo[viewing]
