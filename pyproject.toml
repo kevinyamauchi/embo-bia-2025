@@ -8,4 +8,5 @@ dependencies = [
     "foambryo[viewing]>=0.3.5",
     "jupyterlab>=4.4.6",
     "napari[pyqt6]>=0.6.4",
+    "torch<=2.8",
 ]
